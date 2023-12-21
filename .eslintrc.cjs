@@ -15,6 +15,8 @@ module.exports = {
     // 模板字符串中的花括号内部两侧是否留有空格
     'template-curly-spacing': 'error',
     // 无所谓是否 const 声明
-    'prefer-const': 'off'
+    'prefer-const': 'off',
+    // 允许使用 any
+    '@typescript-eslint/no-explicit-any': 'off'
   }
 };
